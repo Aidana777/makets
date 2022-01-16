@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:ital,wght@0,400;0,700;1,500;1,700&family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@400;600;700&family=Zilla+Slab:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white: #ffffff;
+  --black: #30363c;
+  --bannerfirst: #f27a54;
+  --bannersecond: #a154f2;
+  --primeryfist: #02020241;
+  --primerysecond: #c4c4c4b4;
+}
+body {
+  font-family: "Zilla Slab", serif;
+}
+
+.header {
+  height: 500px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: url("./картинки/image\ \(1\).png") no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.header-title {
+  text-align: center;
+  color: #ffffff;
+  top: 10px;
+}
+.header-text {
+  text-align: center;
+  width: 450px;
+  bottom: 20px;
+}
+
+.btns {
+  z-index: 1;
+  text-transform: uppercase;
+  left: 20px;
+  text-align: center;
+  bottom: 144px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.btn-1 {
+  background: linear-gradient(90deg, #f27a54 -21.05%, #a154f2 121.05%);
+  padding: 10px 10px;
+  border-radius: 20px;
+  outline: none;
+  text-decoration: none;
+}
+.btn-2 {
+  padding: 10px 10px;
+  border-radius: 20px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  outline: none;
+  text-decoration: none;
+  background: transparent;
+}
+.sidebar {
+  text-align: left;
+  display: grid;
+  justify-content: left;
+  align-items: center;
+  background: linear-gradient(90deg, #f27a54 -21.05%, #a154f2 121.05%);
+  background-size: cover;
+  height: 500px;
+  margin: 0;
+  color: #ffffff;
+  top: 0;
+}
+.sidebar img {
+  position: relative;
+  width: 500px;
+  left: 900px;
+  bottom: 430px;
+}
+.texts {
+  margin: 90px;
+}
+.sidebar-text {
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 400px;
+  margin: 10px;
+}
+.sidebar-title {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 300px;
+  margin: 10px;
+}
+.sidebabtns {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 70px;
+  left: 100px;
+}
+.sidebar-btn {
+  padding: 10px 15px;
+  color: var(--black);
+  background: var(--white);
+  border-radius: 40px;
+  border: 1px solid #ffffff;
+  margin: 5px;
+}
+.sidebar-btn2 {
+  padding: 10px 15px;
+  color: var(--black);
+  border-radius: 40px;
+  border: 1px solid #ffffff;
+  outline: none;
+  text-decoration: none;
+  background: transparent;
+}
+.banner {
+  width: 50%;
+  float: left;
+  background: #3c444c;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  color: var(--white);
+  text-align: center;
+}
+.banner-title {
+  text-align: center;
+  margin-left: 250px;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  width: 300px;
+  margin-top: 120px;
+}
+.banner-text {
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  width: 400px;
+  text-align: center;
+
+  margin-left: 210px;
+  padding: 15px;
+}
+.banner-btn {
+  padding: 10px 15px;
+  color: var(--black);
+  border-radius: 40px;
+  border: 1px solid #ffffff;
+}
+.main {
+  width: 50%;
+  float: left;
+  display: grid;
+  background: 
+    url("./картинки/studens.png");
+  height: 500px;
+}
+.main img {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-left: 290px;
+  margin-top: 250px;
+}
+.footer {
+  height: 500px;
+  background:linear-gradient(135deg, var(--primeryfist), var(--primerysecond)),
+   url("./картинки/office.png") no-repeat;
+  clear: both;
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+ 
+ 
+
+}
+.footer img {
+  float: left;
+}
+.CATEGORY {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  background: linear-gradient(90deg, #f27a54 -21.05%, #a154f2 121.05%);
+  text-align: center;
+  width: 50px;
+  height: 10px;
+ margin-left: 700px;
+ margin-top: 100px;
+ 
+}
+.title{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 56px;
+  text-align: center;
+  width: 350px;
+  margin-left: 550px;
+}
+.texts-footer{
+  display: grid;
+  grid-template-columns: repeat(4,20px);
+  gap: 20px;
+  grid-template-areas: 30px 30px;
+  margin-left: 640px;
+  text-align: center;
+  align-items: center;
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+}
+.footest{
+ display: grid;
+ grid-template-areas:
+ ". a a ."
+ ". a a .";
+}
