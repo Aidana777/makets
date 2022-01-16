@@ -7,10 +7,12 @@
 :root {
   --white: #ffffff;
   --black: #30363c;
-  --bannerfirst: #f27a54;
-  --bannersecond: #a154f2;
-  --primeryfist: #02020241;
-  --primerysecond: #c4c4c4b4;
+  --bannerfirst: #f27954b2;
+  --bannersecond: #a054f26c;
+  --primeryfist: #0202028c;
+  --primerysecond: #c4c4c488;
+  --primeryfir: #02020227;
+  --primerysec: #c4c4c43a;
 }
 body {
   font-family: "Zilla Slab", serif;
@@ -21,7 +23,8 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  background: url("./картинки/image\ \(1\).png") no-repeat;
+  background: linear-gradient(135deg, var(--primeryfir), var(--primerysec)),
+  url("./картинки/image\ \(1\).png") no-repeat;
   background-size: cover;
   color: #ffffff;
 }
@@ -29,11 +32,20 @@ body {
   text-align: center;
   color: #ffffff;
   top: 10px;
+  font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 56px;
 }
 .header-text {
   text-align: center;
   width: 450px;
   bottom: 20px;
+  font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 30px;
+text-align: center;
 }
 
 .btns {
@@ -171,7 +183,7 @@ body {
   width: 50%;
   float: left;
   display: grid;
-  background: 
+  background: linear-gradient(135deg, var(--bannerfirst), var(--bannersecond)),
     url("./картинки/studens.png");
   height: 500px;
 }
