@@ -84,60 +84,30 @@ a {
   border-radius: 34px;
   width: 220px;
 }
-.icons img{
-padding: 10px;
+.sidebar{
+  width: 100%;
+  background-color: var(--grey);
 }
-.logo-cards img{
-  display: flex;
-  margin-left: 40px;
- padding: 50px;
-}
-.logo-cards{
-  display: flex;
+.logo img{
+  position: relative;
+  left: 140px;
   align-items: center;
-  justify-content: center;
-  margin-left: 610px;
 }
-.content{
-  float: left;
-  width: 500px;
-  height: 800px;
-  background: #E5E5E5;
- 
-}
-.main{
- float: left;
- background-color: var(--grey);
- background-size: cover;
-}
-.contentimg{
-  margin: 10px;
-}
-.main img{
-  float: left;
-}
-.textcols {
-  margin-bottom: 200px;
-	white-space: nowrap;
-}
-.textcols-item {
- bottom: 200px;
-	white-space: normal;	
-	display: inline-block;
-	position: relative;
-  right: 30px;
-  bottom: 900px;
-	vertical-align: top;
-	background:var(--grey) ;
-}
-.textcols .textcols-item:first-child {
-	margin-right: 4%;
-}
-.logo-title{
-  margin-bottom: 900px;
-}
-.textcols-item{
-  margin: 10px;
-}
+.logo{
+margin-left: 16px;
 
+}
+.sidebar img{
+  margin-left: 10px;
+}
+.sidebar-title{
+margin-top: 10px;
+}
+.inner{
+  text-align: center;
+  width: 50%;
+  float: left;
+  
+  padding-left: 530px;
+}
 https://www.figma.com/file/UZpcMp08YeqKjJk3EIVmFe/Hungry-App?node-id=0%3A13
